@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var commonview: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        commonview.layer.borderWidth = 3
+        commonview.layer.borderColor = UIColor.red.cgColor
     }
 
     override func didReceiveMemoryWarning() {
