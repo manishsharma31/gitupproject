@@ -36,17 +36,31 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oe3-OV-JdB">
+                                <rect key="frame" x="128" y="595" width="119" height="30"/>
+                                <color key="backgroundColor" red="0.93487340210000003" green="0.19500216840000001" blue="0.27236157659999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="qqB-tf-BRs"/>
+                                    <constraint firstAttribute="height" constant="30" id="tvA-yj-J7m"/>
+                                </constraints>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Oe3-OV-JdB" secondAttribute="bottom" constant="42" id="K8l-ox-suL"/>
                             <constraint firstItem="6he-71-E8P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VZQ-z2-CbT"/>
                             <constraint firstItem="icd-Lq-mgV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ahs-bE-KJx"/>
                             <constraint firstItem="6he-71-E8P" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="bBx-oe-GvI"/>
+                            <constraint firstItem="Oe3-OV-JdB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i2E-Ao-FFG"/>
                             <constraint firstItem="icd-Lq-mgV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pJQ-ff-0k9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="btnhome" destination="Oe3-OV-JdB" id="jXR-qk-42d"/>
                         <outlet property="btnlogin" destination="6he-71-E8P" id="yKT-gR-EJY"/>
                         <outlet property="commonview" destination="icd-Lq-mgV" id="FSy-Um-2mY"/>
                     </connections>

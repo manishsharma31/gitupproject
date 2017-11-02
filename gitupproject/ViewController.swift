@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var btnhome: UIButton!
     @IBOutlet weak var btnlogin: UIButton!
     @IBOutlet weak var commonview: UIView!
     override func viewDidLoad() {
@@ -19,6 +20,7 @@ class ViewController: UIViewController {
         commonview.layer.borderColor = UIColor.red.cgColor
         commonview.layer.backgroundColor = UIColor.green.cgColor
         btnlogin.layer.backgroundColor = UIColor.green.cgColor
+        btnhome.layer.backgroundColor = UIColor.black.cgColor
     }
 
     override func didReceiveMemoryWarning()
