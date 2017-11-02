@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         commonview.layer.borderWidth = 3
         commonview.layer.borderColor = UIColor.red.cgColor
+        commonview.layer.backgroundColor = UIColor.green.cgColor
     }
 
     override func didReceiveMemoryWarning() {
