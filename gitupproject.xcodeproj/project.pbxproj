@@ -58,11 +58,11 @@
 			children = (
 				D5CC84891FAAF50800700616 /* AppDelegate.swift */,
 				D5CC848B1FAAF50900700616 /* ViewController.swift */,
+				D5E1F65C1FB03B7B003E652F /* NextViewController.swift */,
 				D5CC848D1FAAF50900700616 /* Main.storyboard */,
 				D5CC84901FAAF50900700616 /* Assets.xcassets */,
 				D5CC84921FAAF50900700616 /* LaunchScreen.storyboard */,
 				D5CC84951FAAF50900700616 /* Info.plist */,
-				D5E1F65C1FB03B7B003E652F /* NextViewController.swift */,
 			);
 			path = gitupproject;
 			sourceTree = "<group>";
