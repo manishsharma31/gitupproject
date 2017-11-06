@@ -35,6 +35,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vgl-1J-UC0" kind="show" id="fWo-qa-B0x"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oe3-OV-JdB">
                                 <rect key="frame" x="128" y="595" width="119" height="30"/>
@@ -67,7 +70,40 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116" y="118.29085457271366"/>
+            <point key="canvasLocation" x="4" y="117"/>
+        </scene>
+        <!--Next View Controller-->
+        <scene sceneID="7Tu-mp-dee">
+            <objects>
+                <viewController id="vgl-1J-UC0" customClass="NextViewController" customModule="gitupproject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Idr-MB-JRa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2r3-if-Kfg">
+                                <rect key="frame" x="167.5" y="318" width="39" height="30"/>
+                                <state key="normal" title="NEXT">
+                                    <color key="titleColor" red="0.77060490849999996" green="0.15142208339999999" blue="0.21871644260000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnNextAction:" destination="vgl-1J-UC0" eventType="touchUpInside" id="jCS-1f-LoU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2r3-if-Kfg" firstAttribute="centerX" secondItem="Idr-MB-JRa" secondAttribute="centerX" id="5uH-A8-I0b"/>
+                            <constraint firstItem="2r3-if-Kfg" firstAttribute="centerY" secondItem="Idr-MB-JRa" secondAttribute="centerY" id="9PD-DX-f6s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NbB-Ps-MYi"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnnext" destination="2r3-if-Kfg" id="z2c-sK-Y6L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oOS-gw-fe1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="892" y="116"/>
         </scene>
     </scenes>
 </document>
